@@ -34,4 +34,4 @@ For example, the new `plugins.is_active(id)` function makes it MUCH easier to kn
 
 
 
-You can find more information on these new functions in [plugin-functions.md](functions/plugin-functions.md "mention")
+You can find more information on these new functions in [plugins.md](functions/plugins.md "mention")

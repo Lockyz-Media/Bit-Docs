@@ -46,4 +46,4 @@ These functions can be found in the [Broken link](broken-reference "mention")pag
 
 One of these functions includes a logging function, we highly recommend using that function for logs over the standard console.log (or console.error) to allow for consistent logs across the board.
 
-You can find more information on the logging function in [logs.md](functions/bit-core-functions/logs.md "mention")
+You can find more information on the logging function in [logs.md](functions/bit-core/logs.md "mention")
