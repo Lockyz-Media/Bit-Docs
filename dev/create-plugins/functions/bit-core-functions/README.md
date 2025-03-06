@@ -4,7 +4,9 @@ icon: function
 
 # Bit Core Functions
 
-Log - Sends a log in the "standard" format for Bit.
+### .log(type, "Plugin Name", forceconsole, "Message")
+
+Sends a log in the "standard" format for Bit.
 
 {% content-ref url="logs.md" %}
 [logs.md](logs.md)
@@ -12,4 +14,6 @@ Log - Sends a log in the "standard" format for Bit.
 
 
 
-Find Emoji - find\_emoji - Returns an emoji in a format Discord can read.
+### .find\_emoji()
+
+Returns an emoji in a format Discord can read.

@@ -102,4 +102,4 @@ Level 3, the plugin will NOT start if a plugin of this level is also loaded. Thi
 
 
 
-You can find more information about the requirements system in [Broken link](broken-reference "mention")
+You can find more information about the requirements system in [plugin-requirements.md](plugin-requirements.md "mention")
