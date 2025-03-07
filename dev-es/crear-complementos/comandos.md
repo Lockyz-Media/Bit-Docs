@@ -1,17 +1,14 @@
----
-icon: slash-forward
----
-
-# Commands
+# Comandos
 
 {% hint style="danger" %}
-This guide is unfinished! We recommend following discord.js's guide for commands found here [https://discordjs.guide/creating-your-bot/slash-commands.html#individual-command-files](https://discordjs.guide/creating-your-bot/slash-commands.html#individual-command-files)
+¡Esta guía no está terminada! Te recomendamos que sigas la guía de comandos de discord.js que se encuentra aquí [https://discordjs.guide/creating-your-bot/slash-commands.html#individual-command-files](https://discordjs.guide/creating-your-bot/slash-commands.html#individual-command-files)
 {% endhint %}
 
-### Command Example <a href="#command-example" id="command-example"></a>
+## Ejemplo de comando
 
-<pre class="language-javascript"><code class="lang-javascript"><strong>const { EmbedBuilder, version: discordVersion, SlashCommandBuilder } = require('discord.js')
-</strong>const moment = require('moment');
+```javascript
+const { EmbedBuilder, version: discordVersion, SlashCommandBuilder } = require('discord.js')
+const moment = require('moment');
 require('moment-duration-format');
 const language = require('../../../config.json')
 
@@ -61,4 +58,5 @@ module.exports = {
         interaction.reply({ embeds: [embed] })
 	}
 };
-</code></pre>
+```
+

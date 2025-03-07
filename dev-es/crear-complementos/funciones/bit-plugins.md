@@ -1,30 +1,26 @@
----
-icon: plug
----
-
 # bit/plugins
 
-As part of Bit 2025.2 we added a brand new suit of functions to interact with Bits plugin system.
+Como parte de Bit 2025.2 agregamos un nuevo conjunto de funciones para interactuar con el sistema de complementos de Bits.
 
-These functions can be imported with the following code at the top of your code
+Estas funciones se pueden importar con el siguiente código en la parte superior de su código
 
 ```javascript
 const plugins =  require("bit/plugins");
 ```
 
-Theres a few different functions you can run with this import...
+Hay algunas funciones diferentes que puedes ejecutar con esta importación...
 
-### .is\_active(id, version)
+### .is\_active(id, versión)
 
-The is\_active function can be used to detect if a plugin is installed, and whether it matches a specific version. This function should be used in conjunction with bits soft-requirements system to block parts of your plugin to users who may not have all the required plugins.
+La función is\_active se puede utilizar para detectar si un complemento está instalado y si coincide con una versión específica. Esta función se debe utilizar junto con el sistema de requisitos de software de bits para bloquear partes de su complemento a los usuarios que pueden no tener todos los complementos necesarios.
 
-The version paramater is optional and can be ommitted.
+El parámetro de versión es opcional y se puede omitir.
 
 ```javascript
-plugins.is_active(id, version)
+plugins.is_active(id, versión)
 ```
 
-Example with Bit: Core 2025.2.0 installed
+Ejemplo con Bit: Core 2025.2.0 instalado
 
 ```javascript
 const reqMet = plugins.is_active('bit-core', '2025.2.0');
@@ -70,17 +66,17 @@ console.log(reqMet)
 
 ### .find(id)
 
-`plugins.find(id)` is used to find a specific plugin and it's information.
+plugins.find(id) se utiliza para buscar un complemento específico y su información.
 
-If the plugin cannot be found within the plugins database, it'll return a status code of 404.
+Si no se puede encontrar el complemento en la base de datos de complementos, devolverá un código de estado 404.
 
-This function will return an array of the plugins info and/or the status of the search.
+Esta función devolverá una matriz con la información del complemento y/o el estado de la búsqueda.
 
 ```javascript
 plugins.find(id)
 ```
 
-Example use
+Ejemplo de uso
 
 ```javascript
 const plugins = require('bit/plugins');
@@ -123,25 +119,25 @@ Plugin with an id of 'bit-core' cannot be found
 
 ### .list()
 
-Shows a list of all installed plugins
+Muestra una lista de todos los complementos instalados
 
 ```javascript
 plugins.list()
 ```
 
 {% hint style="danger" %}
-UNFINISHED
+INCONCLUSO
 {% endhint %}
 
 ### .count()
 
-Counts all the plugins installed, and outputs the number.
+Cuenta todos los complementos instalados y genera el número.
 
 ```javascript
 plugins.count()
 ```
 
-Example
+Ejemplo
 
 ```javascript
 const plugins = require('bit/plugins');

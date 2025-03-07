@@ -23,3 +23,16 @@
   * [Updating to Bit 2025.1](dev/create-plugins/updating-to-bit-2025.1.md)
   * [Updating to Bit 2024.2](dev/create-plugins/updating-to-bit-2024.2.md)
   * [Updating to Bit 2024.1](dev/create-plugins/updating-to-bit-2024.1.md)
+
+## Dev español <a href="#dev-es" id="dev-es"></a>
+
+* [Información](dev-es/informacion.md)
+* [Crear complementos](dev-es/crear-complementos/README.md)
+  * [Comandos](dev-es/crear-complementos/comandos.md)
+  * [Eventos](dev-es/crear-complementos/eventos.md)
+  * [Requisitos del complemento](dev-es/crear-complementos/requisitos-del-complemento.md)
+  * [Funciones](dev-es/crear-complementos/funciones/README.md)
+    * [bit/plugins](dev-es/crear-complementos/funciones/bit-plugins.md)
+    * [bit/core](dev-es/crear-complementos/funciones/bit-core/README.md)
+      * [.logs](dev-es/crear-complementos/funciones/bit-core/.logs.md)
+  * [Ejecutar función al iniciar el bot](dev-es/crear-complementos/ejecutar-funcion-al-iniciar-el-bot.md)
