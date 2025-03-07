@@ -17,6 +17,7 @@
     * [bit/core](dev/create-plugins/functions/bit-core/README.md)
       * [.logs](dev/create-plugins/functions/bit-core/logs.md)
   * [Run function on bot startup](dev/create-plugins/run-function-on-bot-startup.md)
+  * [Global Exports](dev/create-plugins/global-exports.md)
   * [plugin.json](dev/create-plugins/plugin.json.md)
   * [update.json](dev/create-plugins/update.json.md)
   * [Updating to Bit 2025.2](dev/create-plugins/updating-to-bit-2025.2.md)
