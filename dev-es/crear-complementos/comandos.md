@@ -1,3 +1,7 @@
+---
+icon: slash-forward
+---
+
 # Comandos
 
 {% hint style="danger" %}

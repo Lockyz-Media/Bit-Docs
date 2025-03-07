@@ -1,3 +1,7 @@
+---
+icon: play
+---
+
 # Ejecutar función al iniciar el bot
 
 Puedes ejecutar funciones programadas para ejecutarse cuando se inicia el bot.

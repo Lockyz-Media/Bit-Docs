@@ -1,3 +1,7 @@
+---
+icon: plug
+---
+
 # bit/plugins
 
 Como parte de Bit 2025.2 agregamos un nuevo conjunto de funciones para interactuar con el sistema de complementos de Bits.

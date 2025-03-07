@@ -26,7 +26,7 @@
 
 ## Dev español <a href="#dev-es" id="dev-es"></a>
 
-* [Información](dev-es/informacion.md)
+* [Bienvenido](dev-es/bienvenido.md)
 * [Crear complementos](dev-es/crear-complementos/README.md)
   * [Comandos](dev-es/crear-complementos/comandos.md)
   * [Eventos](dev-es/crear-complementos/eventos.md)

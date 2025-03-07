@@ -1,3 +1,7 @@
+---
+icon: shield-exclamation
+---
+
 # Requisitos del complemento
 
 Si su complemento utiliza funciones de otro complemento, puede asegurarse de advertir al usuario haciendo uso del sistema de requisitos de complementos de Bits.

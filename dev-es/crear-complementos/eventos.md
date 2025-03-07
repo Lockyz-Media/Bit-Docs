@@ -1,3 +1,7 @@
+---
+icon: square-terminal
+---
+
 # Eventos
 
 {% hint style="danger" %}

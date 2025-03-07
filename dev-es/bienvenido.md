@@ -1,4 +1,8 @@
-# Información
+---
+icon: hand-wave
+---
+
+# Bienvenido
 
 {% hint style="danger" %}
 La documentación en español de Bit actualmente no está terminada y está traducida automáticamente.

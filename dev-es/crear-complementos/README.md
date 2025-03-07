@@ -1,5 +1,6 @@
 ---
 description: Empiece a crear complementos para Bit
+icon: code
 ---
 
 # Crear complementos
