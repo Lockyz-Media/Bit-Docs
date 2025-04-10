@@ -1,8 +1,4 @@
----
-icon: terminal
----
-
-# Logs
+# .log(type, "Plugin Name", force\_console, "Log")
 
 Bit employs a custom logging system. To use bits new logging system you simply have to import bit/core and then follow the function structure.
 
@@ -35,3 +31,4 @@ core.log(2, "Bit Example", true, "Something Broke")
 core.log(2, "Bit Example", false, "Something Broke")
 // ^ Will only output "[ERROR] Bit Example: Something Broke" if the user has error logs turned on for the console
 ```
+

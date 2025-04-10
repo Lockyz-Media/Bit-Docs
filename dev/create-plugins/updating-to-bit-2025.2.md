@@ -12,7 +12,7 @@ With bit now exporting the pluginLoader.js file and the functions within, we've 
 
 Replacement Example
 
-```
+```javascript
 // Old Code Example
 const core = require('bit/core')
 
@@ -32,9 +32,7 @@ This version of Bit adds a few extra functions added to make interacting between
 
 For example, the new `plugins.is_active(id)` function makes it MUCH easier to know if a plugin is installed and active.
 
-
-
-You can find more information on these new functions in [plugins.md](functions/plugins.md "mention")
+You can find more information on these new functions in [plugins](functions/plugins/ "mention")
 
 ## Global "database" folder renamed to "data"
 
