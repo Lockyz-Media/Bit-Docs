@@ -40,7 +40,7 @@ Bit now includes a banned-users database, while simplistic in nature, this datab
 
 Bit Core now includes various functions for use with your plugins, in the future this will be used for querying configs and bits default databases.
 
-These functions can be found in the [Broken link](broken-reference "mention")page.
+These functions can be found in the [bit-core](functions/bit-core/ "mention")page.&#x20;
 
 
 
