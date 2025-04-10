@@ -56,34 +56,6 @@ const xp = require('bit/plugin/bit-xp');
 xp.add_xp(835394949612175380, 10, true)
 ```
 
-
-
-## Experimental: Global Configs
-
-{% include "../../.gitbook/includes/experimental-feature.md" %}
-
-Now, configs are defined globally, this means you can now read the config file for ANY plugin installed within Bit, including bits own, simply by importing it.
-
-Example
-
-```javascript
-const core_config = require("bit/configs/bit-core");
-
-console.log(core_config.bit_version.full);
-```
-
-You can also import bits main config, this is useful for if you wanted to use the main bots embed\_colours, or the bots IDs.
-
-Example
-
-```javascript
-const config = require("bit/config")
-
-if(config.bot_ids.logs) {
-    console.log(config.bot_ids.logs)
-}
-```
-
 ## Experimental: Definable Intents
 
 {% include "../../.gitbook/includes/experimental-feature.md" %}
