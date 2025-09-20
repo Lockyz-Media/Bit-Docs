@@ -1,12 +1,10 @@
 ---
-icon: dev
+icon: flask-round-potion
 ---
 
 # Global Exports
 
 {% include "../../.gitbook/includes/experimental-feature.md" %}
-
-
 
 Added in Bit 2025.2, plugins can now define global exports that can be run within other plugins.
 
